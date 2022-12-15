@@ -1,1 +1,12 @@
 /* styles go here */
+.inputBlock {
+  display: block;
+}
+
+.inputBlock:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.formBlock {
+  margin-bottom: 20px;
+}
